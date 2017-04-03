@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C718121E926BB100876D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718111E926BB100876D68 /* AppDelegate.swift */; };
+		48C718141E926BB100876D68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718131E926BB100876D68 /* ViewController.swift */; };
+		48C718171E926BB100876D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C718151E926BB100876D68 /* Main.storyboard */; };
+		48C7181A1E926BB100876D68 /* Intermine_POC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48C718181E926BB100876D68 /* Intermine_POC.xcdatamodeld */; };
+		48C7181C1E926BB100876D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C7181B1E926BB100876D68 /* Assets.xcassets */; };
+		48C7181F1E926BB100876D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C7181D1E926BB100876D68 /* LaunchScreen.storyboard */; };
+		48C7182A1E926BB200876D68 /* Intermine_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718291E926BB200876D68 /* Intermine_POCTests.swift */; };
+		48C718351E926BB200876D68 /* Intermine_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718341E926BB200876D68 /* Intermine_POCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C718261E926BB200876D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C718061E926BB100876D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C7180D1E926BB100876D68;
+			remoteInfo = "Intermine-POC";
+		};
+		48C718311E926BB200876D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C718061E926BB100876D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C7180D1E926BB100876D68;
+			remoteInfo = "Intermine-POC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48C7180E1E926BB100876D68 /* Intermine-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intermine-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C718111E926BB100876D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48C718131E926BB100876D68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48C718161E926BB100876D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C718191E926BB100876D68 /* Intermine_POC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Intermine_POC.xcdatamodel; sourceTree = "<group>"; };
+		48C7181B1E926BB100876D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48C7181E1E926BB100876D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48C718201E926BB100876D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C718251E926BB200876D68 /* Intermine-POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intermine-POCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C718291E926BB200876D68 /* Intermine_POCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intermine_POCTests.swift; sourceTree = "<group>"; };
+		48C7182B1E926BB200876D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C718301E926BB200876D68 /* Intermine-POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intermine-POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C718341E926BB200876D68 /* Intermine_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intermine_POCUITests.swift; sourceTree = "<group>"; };
+		48C718361E926BB200876D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C7180B1E926BB100876D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C718221E926BB200876D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C7182D1E926BB200876D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C718051E926BB100876D68 = {
+			isa = PBXGroup;
+			children = (
+				48C718101E926BB100876D68 /* Intermine-POC */,
+				48C718281E926BB200876D68 /* Intermine-POCTests */,
+				48C718331E926BB200876D68 /* Intermine-POCUITests */,
+				48C7180F1E926BB100876D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48C7180F1E926BB100876D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C7180E1E926BB100876D68 /* Intermine-POC.app */,
+				48C718251E926BB200876D68 /* Intermine-POCTests.xctest */,
+				48C718301E926BB200876D68 /* Intermine-POCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C718101E926BB100876D68 /* Intermine-POC */ = {
+			isa = PBXGroup;
+			children = (
+				48C718111E926BB100876D68 /* AppDelegate.swift */,
+				48C718131E926BB100876D68 /* ViewController.swift */,
+				48C718151E926BB100876D68 /* Main.storyboard */,
+				48C7181B1E926BB100876D68 /* Assets.xcassets */,
+				48C7181D1E926BB100876D68 /* LaunchScreen.storyboard */,
+				48C718201E926BB100876D68 /* Info.plist */,
+				48C718181E926BB100876D68 /* Intermine_POC.xcdatamodeld */,
+			);
+			path = "Intermine-POC";
+			sourceTree = "<group>";
+		};
+		48C718281E926BB200876D68 /* Intermine-POCTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C718291E926BB200876D68 /* Intermine_POCTests.swift */,
+				48C7182B1E926BB200876D68 /* Info.plist */,
+			);
+			path = "Intermine-POCTests";
+			sourceTree = "<group>";
+		};
+		48C718331E926BB200876D68 /* Intermine-POCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48C718341E926BB200876D68 /* Intermine_POCUITests.swift */,
+				48C718361E926BB200876D68 /* Info.plist */,
+			);
+			path = "Intermine-POCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C7180D1E926BB100876D68 /* Intermine-POC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C718391E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POC" */;
+			buildPhases = (
+				48C7180A1E926BB100876D68 /* Sources */,
+				48C7180B1E926BB100876D68 /* Frameworks */,
+				48C7180C1E926BB100876D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intermine-POC";
+			productName = "Intermine-POC";
+			productReference = 48C7180E1E926BB100876D68 /* Intermine-POC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C718241E926BB200876D68 /* Intermine-POCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C7183C1E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POCTests" */;
+			buildPhases = (
+				48C718211E926BB200876D68 /* Sources */,
+				48C718221E926BB200876D68 /* Frameworks */,
+				48C718231E926BB200876D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C718271E926BB200876D68 /* PBXTargetDependency */,
+			);
+			name = "Intermine-POCTests";
+			productName = "Intermine-POCTests";
+			productReference = 48C718251E926BB200876D68 /* Intermine-POCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48C7182F1E926BB200876D68 /* Intermine-POCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C7183F1E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POCUITests" */;
+			buildPhases = (
+				48C7182C1E926BB200876D68 /* Sources */,
+				48C7182D1E926BB200876D68 /* Frameworks */,
+				48C7182E1E926BB200876D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C718321E926BB200876D68 /* PBXTargetDependency */,
+			);
+			name = "Intermine-POCUITests";
+			productName = "Intermine-POCUITests";
+			productReference = 48C718301E926BB200876D68 /* Intermine-POCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C718061E926BB100876D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aditya Jain";
+				TargetAttributes = {
+					48C7180D1E926BB100876D68 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					48C718241E926BB200876D68 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48C7180D1E926BB100876D68;
+					};
+					48C7182F1E926BB200876D68 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48C7180D1E926BB100876D68;
+					};
+				};
+			};
+			buildConfigurationList = 48C718091E926BB100876D68 /* Build configuration list for PBXProject "Intermine-POC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C718051E926BB100876D68;
+			productRefGroup = 48C7180F1E926BB100876D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C7180D1E926BB100876D68 /* Intermine-POC */,
+				48C718241E926BB200876D68 /* Intermine-POCTests */,
+				48C7182F1E926BB200876D68 /* Intermine-POCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C7180C1E926BB100876D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C7181F1E926BB100876D68 /* LaunchScreen.storyboard in Resources */,
+				48C7181C1E926BB100876D68 /* Assets.xcassets in Resources */,
+				48C718171E926BB100876D68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C718231E926BB200876D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C7182E1E926BB200876D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C7180A1E926BB100876D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C718141E926BB100876D68 /* ViewController.swift in Sources */,
+				48C718121E926BB100876D68 /* AppDelegate.swift in Sources */,
+				48C7181A1E926BB100876D68 /* Intermine_POC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C718211E926BB200876D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C7182A1E926BB200876D68 /* Intermine_POCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C7182C1E926BB200876D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C718351E926BB200876D68 /* Intermine_POCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C718271E926BB200876D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C7180D1E926BB100876D68 /* Intermine-POC */;
+			targetProxy = 48C718261E926BB200876D68 /* PBXContainerItemProxy */;
+		};
+		48C718321E926BB200876D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C7180D1E926BB100876D68 /* Intermine-POC */;
+			targetProxy = 48C718311E926BB200876D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48C718151E926BB100876D68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C718161E926BB100876D68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C7181D1E926BB100876D68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C7181E1E926BB100876D68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C718371E926BB200876D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C718381E926BB200876D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C7183A1E926BB200876D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Intermine-POC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zriton.Intermine-POC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		48C7183B1E926BB200876D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Intermine-POC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zriton.Intermine-POC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		48C7183D1E926BB200876D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Intermine-POCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zriton.Intermine-POCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intermine-POC.app/Intermine-POC";
+			};
+			name = Debug;
+		};
+		48C7183E1E926BB200876D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Intermine-POCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zriton.Intermine-POCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intermine-POC.app/Intermine-POC";
+			};
+			name = Release;
+		};
+		48C718401E926BB200876D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Intermine-POCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zriton.Intermine-POCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Intermine-POC";
+			};
+			name = Debug;
+		};
+		48C718411E926BB200876D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Intermine-POCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zriton.Intermine-POCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Intermine-POC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C718091E926BB100876D68 /* Build configuration list for PBXProject "Intermine-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C718371E926BB200876D68 /* Debug */,
+				48C718381E926BB200876D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C718391E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C7183A1E926BB200876D68 /* Debug */,
+				48C7183B1E926BB200876D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48C7183C1E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C7183D1E926BB200876D68 /* Debug */,
+				48C7183E1E926BB200876D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48C7183F1E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C718401E926BB200876D68 /* Debug */,
+				48C718411E926BB200876D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48C718181E926BB100876D68 /* Intermine_POC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48C718191E926BB100876D68 /* Intermine_POC.xcdatamodel */,
+			);
+			currentVersion = 48C718191E926BB100876D68 /* Intermine_POC.xcdatamodel */;
+			path = Intermine_POC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48C718061E926BB100876D68 /* Project object */;
+}
