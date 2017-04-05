@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Module1ViewController: UIViewController,Module1Input {
+class Module1ViewController: UIViewController,Module1ViewInput {
 
-    var output: Module1Output!
+    var output: Module1ViewOutput!
     var textField : UITextField!
     
     // MARK: Life cycle

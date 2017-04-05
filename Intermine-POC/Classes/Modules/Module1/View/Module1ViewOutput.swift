@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aditya Jain. All rights reserved.
 //
 
-protocol Module1Output {
+protocol Module1ViewOutput {
     func viewIsReady()
     func sendDataButtonClicled()
 }

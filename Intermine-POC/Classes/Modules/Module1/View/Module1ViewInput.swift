@@ -8,7 +8,7 @@
 
 typealias DataResultBlock = (_ data: String) -> Void
 
-protocol Module1Input: class {
+protocol Module1ViewInput: class {
     func getDataWithResultBlock(resultBlock: DataResultBlock)
     func setupInitialState()
     func setTextInEditField(text: String)
