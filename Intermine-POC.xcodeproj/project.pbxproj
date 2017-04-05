@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		434B299361E3453A607D93E6 /* Pods_Intermine_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555FD5F7E8589A09250D7391 /* Pods_Intermine_POC.framework */; };
+		4870663F1E95681100319508 /* Module1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870663E1E95681100319508 /* Module1ViewController.swift */; };
+		487066411E95684400319508 /* Module1Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487066401E95684400319508 /* Module1Input.swift */; };
+		487066431E95686400319508 /* Module1Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487066421E95686400319508 /* Module1Output.swift */; };
 		48C718121E926BB100876D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718111E926BB100876D68 /* AppDelegate.swift */; };
 		48C718141E926BB100876D68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718131E926BB100876D68 /* ViewController.swift */; };
 		48C718171E926BB100876D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C718151E926BB100876D68 /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4870663E1E95681100319508 /* Module1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1ViewController.swift; path = Classes/Modules/Module1/View/Module1ViewController.swift; sourceTree = "<group>"; };
+		487066401E95684400319508 /* Module1Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1Input.swift; path = Classes/Modules/Module1/View/Module1Input.swift; sourceTree = "<group>"; };
+		487066421E95686400319508 /* Module1Output.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1Output.swift; path = Classes/Modules/Module1/View/Module1Output.swift; sourceTree = "<group>"; };
 		48C7180E1E926BB100876D68 /* Intermine-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intermine-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C718111E926BB100876D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C718131E926BB100876D68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +119,9 @@
 				48C7181D1E926BB100876D68 /* LaunchScreen.storyboard */,
 				48C718201E926BB100876D68 /* Info.plist */,
 				48C718181E926BB100876D68 /* Intermine_POC.xcdatamodeld */,
+				4870663E1E95681100319508 /* Module1ViewController.swift */,
+				487066401E95684400319508 /* Module1Input.swift */,
+				487066421E95686400319508 /* Module1Output.swift */,
 			);
 			path = "Intermine-POC";
 			sourceTree = "<group>";
@@ -337,8 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487066431E95686400319508 /* Module1Output.swift in Sources */,
+				4870663F1E95681100319508 /* Module1ViewController.swift in Sources */,
 				48C718141E926BB100876D68 /* ViewController.swift in Sources */,
 				48C718121E926BB100876D68 /* AppDelegate.swift in Sources */,
+				487066411E95684400319508 /* Module1Input.swift in Sources */,
 				48C7181A1E926BB100876D68 /* Intermine_POC.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,6 +598,7 @@
 				48C7183B1E926BB200876D68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48C7183C1E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POCTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +607,7 @@
 				48C7183E1E926BB200876D68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48C7183F1E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POCUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +616,7 @@
 				48C718411E926BB200876D68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
