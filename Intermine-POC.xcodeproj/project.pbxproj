@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434B299361E3453A607D93E6 /* Pods_Intermine_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555FD5F7E8589A09250D7391 /* Pods_Intermine_POC.framework */; };
 		48C718121E926BB100876D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718111E926BB100876D68 /* AppDelegate.swift */; };
 		48C718141E926BB100876D68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718131E926BB100876D68 /* ViewController.swift */; };
 		48C718171E926BB100876D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C718151E926BB100876D68 /* Main.storyboard */; };
@@ -49,6 +50,9 @@
 		48C718301E926BB200876D68 /* Intermine-POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intermine-POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C718341E926BB200876D68 /* Intermine_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intermine_POCUITests.swift; sourceTree = "<group>"; };
 		48C718361E926BB200876D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555FD5F7E8589A09250D7391 /* Pods_Intermine_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intermine_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700D70D50F1C0D897990B61B /* Pods-Intermine-POC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intermine-POC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Intermine-POC/Pods-Intermine-POC.release.xcconfig"; sourceTree = "<group>"; };
+		A372FA43B5C841D378258EF1 /* Pods-Intermine-POC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intermine-POC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Intermine-POC/Pods-Intermine-POC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434B299361E3453A607D93E6 /* Pods_Intermine_POC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				48C718281E926BB200876D68 /* Intermine-POCTests */,
 				48C718331E926BB200876D68 /* Intermine-POCUITests */,
 				48C7180F1E926BB100876D68 /* Products */,
+				AD233083DF1D340437B6E4AE /* Pods */,
+				705D6554DBD713034D08D72F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +135,23 @@
 			path = "Intermine-POCUITests";
 			sourceTree = "<group>";
 		};
+		705D6554DBD713034D08D72F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				555FD5F7E8589A09250D7391 /* Pods_Intermine_POC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD233083DF1D340437B6E4AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A372FA43B5C841D378258EF1 /* Pods-Intermine-POC.debug.xcconfig */,
+				700D70D50F1C0D897990B61B /* Pods-Intermine-POC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C718391E926BB200876D68 /* Build configuration list for PBXNativeTarget "Intermine-POC" */;
 			buildPhases = (
+				51EC6FA3F425DEFDD9CF140D /* [CP] Check Pods Manifest.lock */,
 				48C7180A1E926BB100876D68 /* Sources */,
 				48C7180B1E926BB100876D68 /* Frameworks */,
 				48C7180C1E926BB100876D68 /* Resources */,
+				24759389E3D89EF214113C25 /* [CP] Embed Pods Frameworks */,
+				314DD9CF681A247A445CDA1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24759389E3D89EF214113C25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Intermine-POC/Pods-Intermine-POC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		314DD9CF681A247A445CDA1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Intermine-POC/Pods-Intermine-POC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51EC6FA3F425DEFDD9CF140D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48C7180A1E926BB100876D68 /* Sources */ = {
@@ -414,6 +489,7 @@
 		};
 		48C7183A1E926BB200876D68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A372FA43B5C841D378258EF1 /* Pods-Intermine-POC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Intermine-POC/Info.plist";
@@ -426,6 +502,7 @@
 		};
 		48C7183B1E926BB200876D68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700D70D50F1C0D897990B61B /* Pods-Intermine-POC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Intermine-POC/Info.plist";
