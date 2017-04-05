@@ -11,6 +11,9 @@
 		4870663F1E95681100319508 /* Module1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870663E1E95681100319508 /* Module1ViewController.swift */; };
 		487066411E95684400319508 /* Module1Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487066401E95684400319508 /* Module1Input.swift */; };
 		487066431E95686400319508 /* Module1Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487066421E95686400319508 /* Module1Output.swift */; };
+		487066451E956A0F00319508 /* Module1Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487066441E956A0F00319508 /* Module1Interactor.swift */; };
+		487066471E956A3600319508 /* Module1InteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487066461E956A3600319508 /* Module1InteractorInput.swift */; };
+		487066491E956A5000319508 /* Module1InteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487066481E956A5000319508 /* Module1InteractorOutput.swift */; };
 		48C718121E926BB100876D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718111E926BB100876D68 /* AppDelegate.swift */; };
 		48C718141E926BB100876D68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C718131E926BB100876D68 /* ViewController.swift */; };
 		48C718171E926BB100876D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C718151E926BB100876D68 /* Main.storyboard */; };
@@ -42,6 +45,9 @@
 		4870663E1E95681100319508 /* Module1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1ViewController.swift; path = Classes/Modules/Module1/View/Module1ViewController.swift; sourceTree = "<group>"; };
 		487066401E95684400319508 /* Module1Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1Input.swift; path = Classes/Modules/Module1/View/Module1Input.swift; sourceTree = "<group>"; };
 		487066421E95686400319508 /* Module1Output.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1Output.swift; path = Classes/Modules/Module1/View/Module1Output.swift; sourceTree = "<group>"; };
+		487066441E956A0F00319508 /* Module1Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1Interactor.swift; path = Classes/Modules/Module1/Interactor/Module1Interactor.swift; sourceTree = "<group>"; };
+		487066461E956A3600319508 /* Module1InteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1InteractorInput.swift; path = Classes/Modules/Module1/Interactor/Module1InteractorInput.swift; sourceTree = "<group>"; };
+		487066481E956A5000319508 /* Module1InteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1InteractorOutput.swift; path = Classes/Modules/Module1/Interactor/Module1InteractorOutput.swift; sourceTree = "<group>"; };
 		48C7180E1E926BB100876D68 /* Intermine-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intermine-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C718111E926BB100876D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C718131E926BB100876D68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +128,9 @@
 				4870663E1E95681100319508 /* Module1ViewController.swift */,
 				487066401E95684400319508 /* Module1Input.swift */,
 				487066421E95686400319508 /* Module1Output.swift */,
+				487066441E956A0F00319508 /* Module1Interactor.swift */,
+				487066461E956A3600319508 /* Module1InteractorInput.swift */,
+				487066481E956A5000319508 /* Module1InteractorOutput.swift */,
 			);
 			path = "Intermine-POC";
 			sourceTree = "<group>";
@@ -347,9 +356,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				487066431E95686400319508 /* Module1Output.swift in Sources */,
+				487066471E956A3600319508 /* Module1InteractorInput.swift in Sources */,
 				4870663F1E95681100319508 /* Module1ViewController.swift in Sources */,
 				48C718141E926BB100876D68 /* ViewController.swift in Sources */,
 				48C718121E926BB100876D68 /* AppDelegate.swift in Sources */,
+				487066491E956A5000319508 /* Module1InteractorOutput.swift in Sources */,
+				487066451E956A0F00319508 /* Module1Interactor.swift in Sources */,
 				487066411E95684400319508 /* Module1Input.swift in Sources */,
 				48C7181A1E926BB100876D68 /* Intermine_POC.xcdatamodeld in Sources */,
 			);
